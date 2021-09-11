@@ -1,4 +1,4 @@
-# Saphire - Free opensource sdk cheat based on legendware
+# Saphire - Free opensource cheat based on legendware sdk 
 
 + Changes
   + Ragebot
