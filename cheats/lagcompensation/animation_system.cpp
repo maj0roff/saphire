@@ -13,7 +13,7 @@ void lagcompensation::fsn(ClientFrameStage_t stage)
 	if (stage != FRAME_NET_UPDATE_END)
 		return;
 
-	if (!vars.ragebot.enable)
+	if (!vars.ragebot.enable & !vars.legitbot.enable)
 		return;
 	for (auto i = 1; i < m_globals()->m_maxclients; i++) //-V807
 	{
